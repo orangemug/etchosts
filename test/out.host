@@ -7,7 +7,6 @@
 127.0.0.127     localhost
 255.255.255.255 broadcasthost
 ::1             localhost
-
 #npm:etchosts:test1:start
 127.0.0.1 app.dev
 #npm:etchosts:test1:end

@@ -56,7 +56,6 @@ function parse(id, fn, done) {
 
   readStream.on('end', function (data) {
     if (!foundEnd) {
-      buffer.push("");
       fn(buffer, opts);
     }
 
